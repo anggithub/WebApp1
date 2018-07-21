@@ -11,6 +11,7 @@ namespace WebApp1.Controllers
         public ActionResult Index()
         {
             int aNumber = 8;
+            object obj = new object();
             return View();
         }
 
